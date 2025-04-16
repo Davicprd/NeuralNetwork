@@ -4,16 +4,14 @@ Neste projeto, foram desenvolvidas Redes Neurais Convolucionais (CNN) utilizando
 
 **Tecnologias e bibliotecas utilizadas:**
 
--Python
--TensorFlow / Keras (para criação, treinamento e avaliação do modelo)
+- Python
+- TensorFlow / Keras (para criação, treinamento e avaliação do modelo)
+- pathlib (para manipulação de caminhos de diretórios)
+- Dataset local (pasta contendo imagens organizadas em subdiretórios por classe)
 
--pathlib (para manipulação de caminhos de diretórios)
+# Etapas do Projeto:
 
-=Dataset local (pasta contendo imagens organizadas em subdiretórios por classe)
-
-#Etapas do Projeto:
-
-Carregamento e Pré-processamento dos Dados
+**Carregamento e Pré-processamento dos Dados**
 
 -Utilização da função image_dataset_from_directory do Keras para carregar as imagens do diretório local, dividindo automaticamente o conjunto em dados de treinamento (80%) e validação (20%).
 
@@ -21,7 +19,7 @@ Carregamento e Pré-processamento dos Dados
 
 -Aplicação de cache e prefetching com tf.data.AUTOTUNE para otimizar o desempenho no treinamento.
 
-**Aumento de Dados (Data Augmentation):**
+**Aumento de Dados (Data Augmentation)**
 
 Implementação de um pipeline de aumento de dados com transformações aleatórias como, Espelhamento horizontal, Pequenas rotações, Zoom aleatório, Isso ajuda a melhorar a generalização do modelo e evita overfitting.
 
