@@ -15,7 +15,7 @@ Neste repositório, foram desenvolvidas Redes Neurais Convolucionais (CNN) utili
 
 - Utilização da função image_dataset_from_directory do Keras para carregar as imagens do diretório local, dividindo automaticamente o conjunto em dados de treinamento (80%) e validação (20%).
 
-- Definição de parâmetros como tamanho das imagens (128x128) e batch size (32).
+- Definição de parâmetros como tamanho das imagens e batch size.
 
 - Aplicação de cache e prefetching com tf.data.AUTOTUNE para otimizar o desempenho no treinamento.
 
@@ -25,7 +25,7 @@ Implementação de um pipeline de aumento de dados com transformações aleatór
 
 **Construção da Rede Neural Convolucional (CNN)**
 
-A arquitetura foi construída utilizando o modelo Sequential do Keras, composta por 4 blocos convolucionais, cada um contendo uma camada Conv2D com ReLU, BatchNormalization, MaxPooling2D, Dropout. Após os blocos convolucionais, a rede conta com uma Camada Flatten para vetorização dos dados e duas camadas densas (Dense), sendo a última com ativação softmax para saída multiclasses.
+A arquitetura foi construída utilizando o modelo Sequential do Keras, composta por blocos convolucionais, contendo uma camadas Conv2D com ReLU, BatchNormalization, MaxPooling2D, Dropout. Após os blocos convolucionais, a rede conta com uma Camada Flatten para vetorização dos dados e camadas densas (Dense), sendo a última com ativação softmax para saída multiclasses.
 
 **Compilação e Treinamento**
 
