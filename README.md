@@ -1,6 +1,6 @@
 # Redes Neurais Convolucionais
 
-Neste projeto, foram desenvolvidas Redes Neurais Convolucionais (CNN) utilizando TensorFlow e Keras para a tarefa de classificação de imagens, com foco no reconhecimento de diferentes categorias a partir de um dataset de imagens (Cães e Gatos / Flores).
+Neste repositório, foram desenvolvidas Redes Neurais Convolucionais (CNN) utilizando TensorFlow e Keras para a tarefa de classificação de imagens, com foco no reconhecimento de diferentes categorias a partir de um dataset de imagens (Cães e Gatos / Flores).
 
 **Tecnologias e bibliotecas utilizadas:**
 
