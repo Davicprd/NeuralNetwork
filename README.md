@@ -13,11 +13,11 @@ Neste repositório, foram desenvolvidas Redes Neurais Convolucionais (CNN) utili
 
 **Carregamento e Pré-processamento dos Dados**
 
-- Utilização da função - __`image_dataset_from_directory- __` do Keras para carregar as imagens do diretório local, dividindo automaticamente o conjunto em dados de treinamento (80%) e validação (20%).
+- Utilização da função `image_dataset_from_directory` do Keras para carregar as imagens do diretório local, dividindo automaticamente o conjunto em dados de treinamento (80%) e validação (20%).
 
 - Definição de parâmetros como tamanho das imagens e batch size.
 
-- Aplicação de cache e prefetching com - __`tf.data.AUTOTUNE- __` para otimizar o desempenho no treinamento.
+- Aplicação de cache e prefetching com `tf.data.AUTOTUNE` para otimizar o desempenho no treinamento.
 
 **Aumento de Dados (Data Augmentation)**
 
